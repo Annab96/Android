@@ -1,0 +1,6 @@
+﻿  소스.cpp
+c:\users\anna\documents\visual studio 2015\projects\17이애나_4장\ex 4-10\소스.cpp(12): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\anna\documents\visual studio 2015\projects\17이애나_4장\ex 4-10\소스.cpp(23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\anna\documents\visual studio 2015\projects\17이애나_4장\ex 4-10\소스.cpp(33): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  EX 4-10.vcxproj -> c:\users\anna\documents\visual studio 2015\Projects\17이애나_4장\Debug\EX 4-10.exe
+  EX 4-10.vcxproj -> c:\users\anna\documents\visual studio 2015\Projects\17이애나_4장\Debug\EX 4-10.pdb (Full PDB)
