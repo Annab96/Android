@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
 
     ArrayList<Garden> Garden = new ArrayList<>();
 
-    GridView girdView;
-
+    GridAdapter adapter;
+    GridView gridView;
 
     private static final String TAG = "TestActivity";
     private HttpConnection httpConn = HttpConnection.getInstance();
@@ -33,8 +33,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setTitle("Garden Information");
 
-        girdView = (GridView)findViewById(R.id.grid);
-    }
+        gridView = (GridView)findViewById(R.id.grid);
+        adapter = new GridAdapter(this, Garden);
+        gridView.setAdapter(adapter);
+
+        }
 
     public void onClickedTimeLine(View v){
         Intent intent = new Intent(this, TimeLine.class);

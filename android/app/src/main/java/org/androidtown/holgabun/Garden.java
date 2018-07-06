@@ -1,5 +1,7 @@
 package org.androidtown.holgabun;
 
+import android.widget.TextView;
+
 public class Garden {
     String name;
     int imgno;
@@ -12,10 +14,27 @@ public class Garden {
         this.address = address;
     }
 
-    public String getName(){return name;}
-    public void setName(String name){this.name = name;}
-    public int getImgno(){return imgno;}
-    public void setImgno(int imgno){this.imgno=imgno;}
-    public String getAddress(){return address;}
-    public void setAddress(String address){this.address=address;}
+    public String getName(){
+        return name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public int getImgno(){
+        return imgno;
+    }
+
+    public void setImgno(int imgno){
+        this.imgno = imgno;
+    }
+
+    public String getAddress(){
+        return address;
+    }
+
+    public void setAddress(String address){
+        this.address = address;
+    }
 }
